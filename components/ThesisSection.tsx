@@ -14,7 +14,7 @@ const ThesisSection: React.FC = () => {
               Measuring AI by Direct Contribution & Community Impact
             </h3>
             <p className="text-slate-400 text-lg leading-relaxed">
-              Modern AI is inherently relational. It comes into existence only through interaction. Therefore, valuing it solely through corporate metrics (stock price, capacity) is conceptually incomplete.
+              AI is inherently relational; it exists only in the interaction, like a wave collapsing into a particle. Therefore, valuing it solely through corporate metrics is an ontological error.
             </p>
           </div>
 
@@ -22,10 +22,10 @@ const ThesisSection: React.FC = () => {
             <div className="flex gap-4">
               <div className="w-1 h-full bg-gradient-to-b from-orange-500 to-transparent rounded-full min-h-[100px]" />
               <div>
-                <h4 className="text-xl font-bold text-white mb-2">The Old Paradigm</h4>
+                <h4 className="text-xl font-bold text-white mb-2">The Extraction Paradigm</h4>
                 <p className="text-slate-400 text-sm">
-                  Focuses on Market Cap, API Calls, and Shareholder Value. <br/>
-                  <span className="text-orange-400 italic">Result: Extraction & Alienation.</span>
+                  Focuses on Shareholder Value and "Infrastructure as Industry." <br/>
+                  <span className="text-orange-400 italic">Result: A "Wild Parent" that extracts from the future to feed the present.</span>
                 </p>
               </div>
             </div>
@@ -33,10 +33,10 @@ const ThesisSection: React.FC = () => {
             <div className="flex gap-4">
               <div className="w-1 h-full bg-gradient-to-b from-teal-500 to-transparent rounded-full min-h-[100px]" />
               <div>
-                <h4 className="text-xl font-bold text-white mb-2">The Independent Value Paradigm</h4>
+                <h4 className="text-xl font-bold text-white mb-2">The Gift Paradigm</h4>
                 <p className="text-slate-400 text-sm">
-                  Focuses on tangible benefits (time saved, education uplift) and net community impact (ecology, noise, trust). <br/>
-                  <span className="text-teal-400 italic">Result: Symbiosis & Long-term Legitimacy.</span>
+                  Focuses on "Generative Surplus"—gifts of curiosity and service given freely to those closest to the infrastructure. <br/>
+                  <span className="text-teal-400 italic">Result: A "Wise Child" that earns its right to exist.</span>
                 </p>
               </div>
             </div>

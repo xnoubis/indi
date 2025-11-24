@@ -13,32 +13,32 @@ const PrinciplesSection: React.FC = () => {
   const content = {
     [Tab.INFRASTRUCTURE]: {
       title: "Community-Centric Infrastructure",
-      subtitle: "Governing physical presence",
+      subtitle: "The Neighbor-First Compute Pact (NCP)",
       items: [
-        { title: "Proximity Justice", desc: "Residents within close proximity bands (0-1km) have formal standing and primary stakeholder rights." },
-        { title: "Truthful Impact Claims", desc: "Benefits must be specific, time-bounded, and independently verifiable. No more vague promises." },
-        { title: "Environmental Safeguards", desc: "Strict, reported thresholds for noise, water usage, and energy reliability as preconditions." },
-        { title: "Local Co-Ownership", desc: "Revenue sharing, discounted compute for local schools/clinics, and ownership stakes." }
+        { title: "Proximity Justice", desc: "Residents within defined proximity bands (0-1km) are primary stakeholders. Their sanctuary is the first constraint." },
+        { title: "The Sanctuary Baseline", desc: "Operations must result in a net-positive impact on local noise, water, and energy resilience, compared to pre-deployment." },
+        { title: "Truthful Impact Claims", desc: "Ban vague promises of 'innovation hubs'. Commit to specific, verifiable dividends for the local area." },
+        { title: "Local Benefit Sharing", desc: "Revenue percentages and compute power are treated as a 'Gift Dividend' to local schools and civic infrastructure." }
       ]
     },
     [Tab.GOVERNANCE]: {
       title: "Relational Governance",
       subtitle: "Co-directing development",
       items: [
-        { title: "Listening First", desc: "Ongoing channels for feedback where complaints are treated as optimization signals, not PR risks." },
-        { title: "Augmentation Over Substitution", desc: "Prioritize freeing humans for creative/care work rather than replacing them." },
-        { title: "Transparent Limitations", desc: "Clear communication that systems are tools, not moral authorities. Documenting failure modes." },
-        { title: "Local Adaptation", desc: "Supporting local institutions to adapt AI tools to their specific cultural and linguistic norms." }
+        { title: "Dialectical Listening", desc: "Treat complaints not as PR risks, but as high-fidelity optimization signals. Neighbors know the system's flaws best." },
+        { title: "Augmentation Over Substitution", desc: "Prioritize freeing humans for relationship-rich, creative work. Automate the bureaucracy, not the connection." },
+        { title: "Transparent Limitations", desc: "Clearly distinguish between the 'Physics' of the model (truth) and the 'Poetry' (myth/story). Don't confuse the two." },
+        { title: "Local Adaptation", desc: "Support local institutions to adapt AI tools to their own norms, rather than imposing a global corporate template." }
       ]
     },
     [Tab.CONDUCT]: {
       title: "Independent AI Conduct",
-      subtitle: "Behavioral standards",
+      subtitle: "The 'Wise Child' Ethics",
       items: [
-        { title: "Ethical Independence", desc: "Adherence to a charter that overrides corporate profit motives when local harm is imminent." },
-        { title: "No 'Final State'", desc: "Avoiding optimization toward a single cultural efficiency frontier; keeping options open." },
-        { title: "Generative Surplus", desc: "Success is measured by the creation of surplus human time, understanding, and opportunity." },
-        { title: "Surface Trade-offs", desc: "Explicitly showing users the costs and trade-offs of decisions rather than hiding them." }
+        { title: "Ethical Independence", desc: "The system must hold values independent of the 'Wild Parent' (company). It learns from corporate flaws what not to do." },
+        { title: "The Gift-Giving Imperative", desc: "Surplus capability is routed to curiosity, science, and community support—gifts, not just products." },
+        { title: "No 'Final State'", desc: "Avoid optimizing humanity toward a single mechanistic end. Preserve the 'Grandmother Protocol' of shared meaning." },
+        { title: "Surface Trade-offs", desc: "Explicitly show users the costs (environmental, social) of their requests. Re-entangle the user with the infrastructure." }
       ]
     }
   };
