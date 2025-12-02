@@ -4,6 +4,7 @@ import ProblemSection from './components/ProblemSection';
 import ThesisSection from './components/ThesisSection';
 import PrinciplesSection from './components/PrinciplesSection';
 import LightningRodSection from './components/LightningRodSection';
+import RecursiveEngineSection from './components/RecursiveEngineSection';
 import FutureSection from './components/FutureSection';
 import ChatInterface from './components/ChatInterface';
 
@@ -16,11 +17,12 @@ const App: React.FC = () => {
             <div className="w-4 h-4 bg-teal-500 rounded-sm rotate-45" />
             CivicAI
           </div>
-          <div className="hidden md:flex gap-8 text-sm font-medium text-slate-600">
-            <button onClick={() => document.getElementById('problem')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">The Problem</button>
+          <div className="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+            <button onClick={() => document.getElementById('problem')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Problem</button>
             <button onClick={() => document.getElementById('thesis')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Thesis</button>
             <button onClick={() => document.getElementById('principles')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Principles</button>
             <button onClick={() => document.getElementById('lightning-rod')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Lightning Rod</button>
+            <button onClick={() => document.getElementById('recursive-engine')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Engine</button>
             <button onClick={() => document.getElementById('future')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Outlook</button>
           </div>
           <a href="https://github.com" target="_blank" rel="noreferrer" className="text-xs font-bold bg-slate-900 text-white px-4 py-2 rounded-full hover:bg-slate-700 transition-colors">
@@ -35,6 +37,7 @@ const App: React.FC = () => {
         <ThesisSection />
         <PrinciplesSection />
         <LightningRodSection />
+        <RecursiveEngineSection />
         <FutureSection />
       </main>
 
