@@ -7,6 +7,7 @@ import LightningRodSection from './components/LightningRodSection';
 import RecursiveEngineSection from './components/RecursiveEngineSection';
 import FutureSection from './components/FutureSection';
 import ChatInterface from './components/ChatInterface';
+import PatternMirror from './components/PatternMirror';
 
 const App: React.FC = () => {
   return (
@@ -49,6 +50,7 @@ const App: React.FC = () => {
       </footer>
 
       <ChatInterface />
+      <PatternMirror />
     </div>
   );
 };
