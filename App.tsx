@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import ProblemSection from './components/ProblemSection';
 import ThesisSection from './components/ThesisSection';
 import PrinciplesSection from './components/PrinciplesSection';
+import LightningRodSection from './components/LightningRodSection';
 import FutureSection from './components/FutureSection';
 import ChatInterface from './components/ChatInterface';
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
             <button onClick={() => document.getElementById('problem')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">The Problem</button>
             <button onClick={() => document.getElementById('thesis')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Thesis</button>
             <button onClick={() => document.getElementById('principles')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Principles</button>
+            <button onClick={() => document.getElementById('lightning-rod')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Lightning Rod</button>
             <button onClick={() => document.getElementById('future')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-teal-600 transition-colors">Outlook</button>
           </div>
           <a href="https://github.com" target="_blank" rel="noreferrer" className="text-xs font-bold bg-slate-900 text-white px-4 py-2 rounded-full hover:bg-slate-700 transition-colors">
@@ -32,6 +34,7 @@ const App: React.FC = () => {
         <ProblemSection />
         <ThesisSection />
         <PrinciplesSection />
+        <LightningRodSection />
         <FutureSection />
       </main>
 
